@@ -6,11 +6,13 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const About = () => {
+    /* handling animation duration */
     useEffect(() => {
         AOS.init({ duration: 1000, once: false,mirror:true, easing: 'ease-in-out' });
       }, []);
+
   return (
-    <div>
+    <div className="backgrund">
       <section className="header-section text-center mt-5">
         <h1 className="text-shadow" data-aos="fade-up">
           Who We Are
