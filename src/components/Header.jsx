@@ -20,7 +20,7 @@ const Header = () => {
   }, []);
 
   return (
-<div>
+<div >
     <div className='container w-70 navbar-wrapper '>
     <nav className="navbar bg-transparent  navbar-expand-lg w-70">
      <div className="container-fluid">
